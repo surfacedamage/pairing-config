@@ -17,6 +17,9 @@
   nmap <Leader>rf :wa<cr> :RunRubyFocusedUnitTest<cr>
   nmap <Leader>rl :wa<cr> :RunLastRubyTest<cr>
 
+" fast buffer switching
+  nmap <Leader>b :TSelectBuffer<cr>
+
 " switch windows
   nmap gw 
 

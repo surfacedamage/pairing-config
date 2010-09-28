@@ -60,12 +60,6 @@
 " open the source in a browser for distribution or copying as RTF
   nmap gH :OpenHtml<cr>
 
-" Fuzzy Finder - cmd-enter to open selected file in new tab
-  let g:fuf_keyOpenTabpage = '<D-CR>'
-  nmap <Leader>t :FufFile<cr> 
-  nmap <Leader>b :FufBuffer<cr> 
-  nmap <Leader>f :FufRenewCache<cr> 
-
 " mapping the jumping between splits. Hold control while using vim nav.
   nmap <C-J> <C-W>j<cr>
   nmap <C-K> <C-W>k<cr>

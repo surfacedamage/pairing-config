@@ -22,4 +22,10 @@
   colors twilight2
 
 " attempt to load a custom config for the currently logged in user
-runtime! custom_config/`whoami`.gvim
+  runtime! custom_config/`whoami`.gvim
+
+" cmd-T to launch peepopen
+  if has("gui_macvim")
+    macmenu &File.New\ Tab key=<nop>
+    map <D-t> <Plug>PeepOpen
+  end

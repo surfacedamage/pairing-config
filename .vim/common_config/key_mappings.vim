@@ -18,7 +18,7 @@
   nmap <Leader>rl :wa<cr> :RunLastRubyTest<cr>
 
 " fast buffer switching
-  nmap <Leader>b :TSelectBuffer<cr>
+  nmap <Leader>b :buffer 
 
 " switch windows
   nmap gw 
